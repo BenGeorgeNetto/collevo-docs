@@ -2,11 +2,18 @@
 
 To sign in to your account, follow these steps:
 
-- Enter your registered email.
-- Enter your registered password.
-- Click **Sign In**
-
-![](login.png){width="400"}
+<procedure title="Signing In" id="sign-in">
+    <step>
+        <p>Enter your registered email.</p>
+        <img src="login.png" alt="Sign In" width="350"/>
+    </step>
+    <step>
+        <p>Enter your registered password.</p>
+    </step>
+    <step>
+        <p>Click <strong>Sign In</strong></p>
+    </step>
+</procedure>
 
 ## Common issues
 

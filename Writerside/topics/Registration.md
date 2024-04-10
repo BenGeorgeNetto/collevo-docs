@@ -2,20 +2,38 @@
 
 To create an account, follow these steps:
 
-- Open the app
-- Click **Not registered yet? Register here**
-- Enter your MBCET email address in the first text field (eg: `studentname.rollno@mbcet.ac.in`)
-- Enter a password of your choice in the second text field
-- Re-enter the password in the third text field to confirm it
-- Click **Register**
-
-![](signUp.png){width="400"}
-
-- Go to your work email's inbox and click the verification link sent by the app
-- After doing that, press the restart button to be taken to the login screen
-- If you have not received the verification email, click **Send email verification again** to resend it
-
-![](verification.png){width="400"}
+<procedure title="Creating an Account" id="create-account">
+    <step>
+        <p>Open the app</p>
+    </step>
+    <step>
+        <p>Click <strong>Not registered yet? Register here</strong></p>
+        <img src="login.png" alt="Login Page" width="350"/>
+    </step>
+    <step>
+        <p>Enter your MBCET email address in the first text field (eg: `studentname.rollno@mbcet.ac.in`)</p>
+        <img src="signUp.png" alt="Register" width="350"/>
+    </step>
+    <step>
+        <p>Enter a password of your choice in the second text field</p>
+    </step>
+    <step>
+        <p>Re-enter the password in the third text field to confirm it</p>
+    </step>
+    <step>
+        <p>Click <strong>Register</strong></p>
+    </step>
+    <step>
+        <p>Go to your work email's inbox and click the verification link sent by the app</p>
+    </step>
+    <step>
+        <p>After doing that, press the restart button to be taken to the login screen</p>
+        <img src="verification.png" alt="Email Verification" width="350"/>
+    </step>
+    <step>
+        <p>If you have not received the verification email, click <strong>Send email verification again</strong> to resend it</p>
+    </step>
+</procedure>
 
 ## Common issues
 
