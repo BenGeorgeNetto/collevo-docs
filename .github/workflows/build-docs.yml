@@ -24,8 +24,8 @@ jobs:
       - name: Build docs using Writerside Docker builder
         uses: JetBrains/writerside-github-action@v4
         with:
-          instance: ${{ Writerside/hi }}
-          artifact: ${{ webHelpHI2-all.zip }}
+          instance: ${{ env.INSTANCE }}
+          artifact: ${{ env.ARTIFACT }}
           docker-version: ${{ env.DOCKER_VERSION }}
 
       - name: Save artifact with build results
@@ -33,7 +33,7 @@ jobs:
         with:
           name: docs
           path: |
-            artifacts/${{ webHelpHI2-all.zip }}
+            artifacts/${{ env.ARTIFACT }}
             artifacts/report.json
           retention-days: 7
   test:
@@ -49,7 +49,7 @@ jobs:
       - name: Test documentation
         uses: JetBrains/writerside-checker-action@v1
         with:
-          instance: ${{ Writerside/hi }}
+          instance: ${{ env.INSTANCE }}
   deploy:
     environment:
       name: github-pages
@@ -63,7 +63,7 @@ jobs:
           name: docs
 
       - name: Unzip artifact
-        run: unzip -O UTF-8 -qq '${{ webHelpHI2-all.zip }}' -d dir
+        run: unzip -O UTF-8 -qq '${{ env.ARTIFACT }}' -d dir
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
