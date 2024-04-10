@@ -5,8 +5,10 @@
 <!--    <variables></variables>-->
     <build-profile instance="hi">
         <variables>
+            <primary-color>emerald</primary-color>
             <noindex-content>true</noindex-content>
             <offline-docs>false</offline-docs>
+            <download-title>Collevo Documentation</download-title>
         </variables>
     </build-profile>
 

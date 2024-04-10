@@ -4,14 +4,17 @@ Toggle to **Settings** tab using the bottom bar.
 
 You will find 3 sections:
 
-### Profile
+## Profile
+
 You can view your personal details here.
-![](My_Details.jpeg){width="400"}
+![](profile.png){width="400"}
 
-### About
-View the details of the app here. You can also contact the developer through here.
-![](About.jpeg){width="400"}
+## About
 
-### Sign Out
+View the details of the app here. You can also contact the developer via mail through here.
+![](about.png){width="400"}
+
+## Sign Out
+
 Sign out of the app, if required.
-![](Sign_Out_Popup.jpeg){width="400"}
+![](signout.png){width="400"}

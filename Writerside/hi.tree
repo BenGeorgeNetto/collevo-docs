@@ -3,14 +3,16 @@
         SYSTEM "https://resources.jetbrains.com/writerside/1.0/product-profile.dtd">
 
 <instance-profile id="hi"
-                 name="Collevo"
-                 start-page="Getting-started.md">
+                  name="Collevo"
+                  start-page="Getting-started.md">
 
     <toc-element topic="Getting-started.md"/>
     <toc-element topic="Registration.md"/>
-    <toc-element topic="Uploading-Activity-Points.md"/>
+    <toc-element topic="Login.md"/>
+    <toc-element topic="Navigating-the-Interface.md"/>
     <toc-element topic="New-Request.md"/>
     <toc-element topic="Selecting-your-Activity-Type.md"/>
+    <toc-element topic="Viewing-your-points.md"/>
     <toc-element topic="Knowing-your-Request-Status.md"/>
     <toc-element topic="Settings.md"/>
 </instance-profile>
