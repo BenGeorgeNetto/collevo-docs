@@ -10,6 +10,9 @@
             <offline-docs>false</offline-docs>
             <download-title>Collevo Documentation</download-title>
         </variables>
+        <footer>
+            <link href="https://drive.google.com/drive/folders/16DF_Q4onZfDL32QwR85qdJhsS6oHaqEQ?usp=sharing">Download APK</link>
+        </footer>
     </build-profile>
 
 </buildprofiles>
